@@ -1,0 +1,75 @@
+.App {
+    background-color: darkgray;
+    border: black 5px solid;
+}
+.center {
+    display: flex;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-left: 2px;
+    overflow-y: scroll;
+    height: 450px;
+   background-color: lightgray;
+    
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 20px;
+    position: relative;
+    opacity: 1.0;
+    border: 3px solid black;
+}
+
+
+button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: black solid 2px;
+    background-color: lightgray;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+    font-size: 16px;
+}
+
+input{
+    background-color: whitesmoke;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px 20px 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+   
+}
+
+
+input::placeholder{
+    color: black;
+}
+
+input:focus, button:focus{
+    outline: none;
+} 
+
+.closeBtn {
+    
+    cursor: pointer; 
+    font-size: 25px;
+    color: red; 
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 0px;
+    position: absolute;
+   
+   
+    
+}
